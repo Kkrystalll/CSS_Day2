@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h2 {
+        text-align: center;
+        font-size: 30px;
+      }
+      h2::after {
+        content: "";
+        display: block;
+        width: 1em;
+        height: 2px;
+        background-color: #f00;
+        margin: auto;
+      }
+
+      p {
+        background-color: #ff0;
+      }
+
+      p::before {
+        content: "我是BF";
+        color: #f00;
+      }
+      p::after {
+        content: "我是AF";
+        color: #f00;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>title</h2>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur,
+      aspernatur?
+    </p>
+  </body>
+</html>
