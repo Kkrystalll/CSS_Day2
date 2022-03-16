@@ -127,6 +127,7 @@ h2 {
 
 .business .pic img {
   width: 100%;
+  display: block;
 }
 
 .free_box input {
@@ -316,6 +317,7 @@ h2 {
 .popular .brand img {
   padding: 40px;
   width: 70px;
+  display: block;
 }
 
 .popular .experience {
