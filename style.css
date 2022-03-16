@@ -55,7 +55,6 @@ h2 {
   background-color: #fff;
   height: 84px;
   display: flex;
-  width: auto;
   align-items: center;
 }
 
@@ -85,7 +84,6 @@ h2 {
 }
 .free-button a {
   color: #fff;
-  /* text-align: center; */
   font-size: 17px;
 }
 .free-button:hover {
@@ -97,14 +95,14 @@ h2 {
   display: flex;
   background-color: #000c2b;
   margin: auto;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: center;
   color: #fff;
   padding: 120px 90px;
 }
 
 .business .text {
-  width: 710px;
+  width: 630px;
 }
 
 .text h2 {
@@ -123,7 +121,7 @@ h2 {
 }
 
 .business .pic {
-  width: 710px;
+  width: 630px;
 }
 
 .business .pic img {
@@ -176,6 +174,7 @@ h2 {
   color: #404f61;
   width: 580px;
   padding-top: 30px;
+  line-height: 2em;
 }
 
 .function .container {
