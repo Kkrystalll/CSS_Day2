@@ -95,7 +95,7 @@ h2 {
   display: flex;
   background-color: #000c2b;
   margin: auto;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   color: #fff;
   padding: 120px 90px;
