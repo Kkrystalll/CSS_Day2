@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  outline: 1px solid #f00;
 }
 
 body {
@@ -205,6 +206,7 @@ h2 {
 }
 .container .pic img {
   width: 100%;
+  display: block;
 }
 .container .txt {
   width: 580px;
